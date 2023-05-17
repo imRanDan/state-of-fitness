@@ -1,0 +1,43 @@
+:root {
+
+}
+
+body {
+  background-color: darkgrey
+}
+
+
+.header-nav {
+ display: flex;
+ list-style-type: none;
+ align-items: center;
+}
+
+.nav-left {
+  margin-right: auto;
+}
+
+.nav-right {
+  padding: 1em;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: limegreen;
+}
+
+.nav-button {
+  padding: 1em;
+  border-radius: 1em 0 0 0;
+  background-color: lime;
+  color: black;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* End of Nav */
+
+/* Hero */
+
+
+
