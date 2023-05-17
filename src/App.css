@@ -76,4 +76,13 @@ main {
   text-transform: uppercase;
 }
 
+.trial-button {
+  padding: 1em;
+  border-radius: 1em 0 0 0;
+  background-color: transparent;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 
