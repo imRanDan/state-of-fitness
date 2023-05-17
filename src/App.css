@@ -61,11 +61,24 @@ main {
   background-image: url("./assets/sof-hero-bg.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
+
+  display: flex;
+  justify-content: left;
 }
 
 .hero {
   color: white;
   padding-top: 10em;
+  margin-left: 3em;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 2em;
 }
 
 .signup-button {
