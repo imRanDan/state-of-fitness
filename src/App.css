@@ -14,11 +14,15 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: grey;
 }
 
 nav {
   overflow: auto;
   background-color: transparent;
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
 
 .header-nav {
@@ -28,12 +32,13 @@ nav {
 }
 
 .nav-left {
-  margin-right: auto;
   color: white;
+  margin-right: auto;
 }
 
 .nav-right {
-  padding: 1em;
+  color: white;
+  margin: 0 2em;
 }
 
 .nav-right a {
@@ -54,7 +59,7 @@ nav {
 
 /* Hero */
 main {
-  margin-top: -140px;
+  /* margin-top: -140px; */
   height: 100vh;
   width: 100vw;
   background-image: url("./assets/sof-hero-bg.jpeg");
@@ -77,8 +82,10 @@ main {
 }
 
 .trial-button {
+  margin-left: 2em;
   padding: 1em;
   border-radius: 1em 0 0 0;
+  border: 1px solid white;
   background-color: transparent;
   color: white;
   font-weight: 800;
