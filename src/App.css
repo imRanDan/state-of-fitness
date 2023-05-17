@@ -1,12 +1,25 @@
-:root {
+html {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
+*,
+*::before,
+*::after {
+      -webkit-box-sizing: inherit;
+         -moz-box-sizing: inherit;
+              box-sizing: inherit;
 }
 
 body {
-  background-color: darkgrey;
   font-family: 'Poppins', sans-serif;
 }
 
+nav {
+  overflow: auto;
+  background-color: transparent;
+}
 
 .header-nav {
  display: flex;
@@ -16,6 +29,7 @@ body {
 
 .nav-left {
   margin-right: auto;
+  color: white;
 }
 
 .nav-right {
@@ -24,7 +38,7 @@ body {
 
 .nav-right a {
   text-decoration: none;
-  color: limegreen;
+  color: white;
 }
 
 .nav-button {
@@ -39,6 +53,27 @@ body {
 /* End of Nav */
 
 /* Hero */
+main {
+  margin-top: -140px;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./assets/sof-hero-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
+.hero {
+  color: white;
+  padding-top: 10em;
+}
+
+.signup-button {
+  padding: 1em;
+  border-radius: 1em 0 0 0;
+  background-color: lime;
+  color: black;
+  font-weight: 800;
+  text-transform: uppercase;
+}
 
 
