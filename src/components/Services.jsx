@@ -9,9 +9,18 @@ const Services = () => {
     </section>
 
     <section className='services-grid'>
-      <div>
-        
+      <div className='main-card-container'>
+        <div className='main-card'>
+          <h3>gym</h3>
+          <p>We offer a wide range of machines, free weights, and more for your fitness needs</p>
+        </div>
       </div>
+
+      <div className='side-cards'>
+            <div className='side-card'></div>
+            <div className='side-card'></div>
+            <div className='side-card'></div>
+          </div>
     </section>
     </>
   )

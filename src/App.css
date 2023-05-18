@@ -7,14 +7,13 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: rgb(4, 4, 4);
 }
 
 nav {
-  overflow: auto;
   background-color: transparent;
   position: absolute;
   width: 100%;
-  top: 0;
 }
 
 .header-nav {
@@ -54,28 +53,29 @@ nav {
 /* End of Nav */
 
 /* Hero */
-main {
+.hero {
+  height: 100vh;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   background-image: url("./assets/sof-hero-bg.jpeg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  display: flex;
-  justify-content: left;
-}
-
-.hero {
-  height: 0;
-  padding-bottom: 28%;
-  margin: 6rem;
-  color: white;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 .hero p {
   font-size: 1rem;
   margin-bottom: 2em;
+  font-weight: 500;
 }
 
 
@@ -121,10 +121,28 @@ main {
 
 .services-banner h2, p {
   padding-right: 3rem;
+  margin: 3rem;
 }
 
 .services-banner p {
   margin-left: 8rem;
+}
+
+.main-card-container {
+  width: 70%;
+}
+
+.main-card {
+  height: 300px;
+  width: 300px;
+
+  outline: 1px solid red;
+}
+
+.side-card  {
+  height: 300px;
+  width: 100px;
+  outline: 1px solid red;
 }
 
 
