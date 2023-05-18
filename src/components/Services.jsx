@@ -8,7 +8,6 @@ const Services = () => {
         <h2>Transform as you continue</h2>
         <p>We offer customized programs designed for each client to help them reach their next level. Whether that is weight loss, strength, toning, or conditioning.</p>
       </div>
-      
     </section>
 
     <section className='services-grid'>
@@ -20,9 +19,18 @@ const Services = () => {
       </div>
 
     <div className='side-card-container'>
-    <div className='side-card'></div>
-      <div className='side-card'></div>
-      <div className='side-card'></div>
+      <div className='side-card'>
+        <div className='side-card-icon'></div>
+        <h3>Zumba</h3>
+      </div>
+      <div className='side-card'>
+        <div className='side-card-icon'></div>
+        <h3>Yoga</h3>
+      </div>    
+      <div className='side-card'>
+        <div className='side-card-icon'></div>
+        <h3>Spin</h3>
+      </div>
     </div>
 
 

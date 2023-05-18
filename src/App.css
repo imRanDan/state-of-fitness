@@ -135,25 +135,46 @@ nav {
 }
 
 .main-card-container {
-
+  display: flex;
 }
 
 .main-card {
-  height: 250px;
-
+  display: flex;
+  height: 450px;
+  border-radius: 9em 0 0 0;
   outline: 1px solid red;
+  margin-right: 1rem;
+
+
 }
+
 
 .side-card-container {
   display: flex;
 }
 
 .side-card  {
-  height: 250px;
-  width: 100px;
+  display: flex;
+  height: 450px;
+  width: 150px;
   outline: 1px solid red;
   margin: 0 1rem;
 }
 
+.side-card-icon {
+  height: 3rem;
+  width: 3rem;
+  outline: 1px solid red;
+
+  border-radius: 0 0 2rem 0;
+}
+
+.side-card h3 {
+  writing-mode:vertical-lr;
+  align-self: flex-end;
+  padding: 1rem;
+
+  font-size: 2rem;
+}
 
 
