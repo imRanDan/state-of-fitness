@@ -19,15 +19,15 @@ const Services = () => {
       </div>
 
     <div className='side-card-container'>
-      <div className='side-card'>
+      <div className='side-card card-1'>
         <div className='side-card-icon'></div>
         <h3>Zumba</h3>
       </div>
-      <div className='side-card'>
+      <div className='side-card card-2'>
         <div className='side-card-icon'></div>
         <h3>Yoga</h3>
       </div>    
-      <div className='side-card'>
+      <div className='side-card card-3'>
         <div className='side-card-icon'></div>
         <h3>Spin</h3>
       </div>

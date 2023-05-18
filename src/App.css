@@ -144,8 +144,26 @@ nav {
   border-radius: 9em 0 0 0;
   outline: 1px solid red;
   margin-right: 1rem;
+  background-image: url("./assets/workout-gym-card-img.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 
+  align-items: flex-end;
+}
 
+.main-card h3 {
+  font-size: 2rem;
+  padding: 1rem;
+
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 1px 1px black;
+}
+
+.main-card p {
+  padding: 0 0 1rem 6rem;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
 
@@ -159,6 +177,21 @@ nav {
   width: 150px;
   outline: 1px solid red;
   margin: 0 1rem;
+}
+
+.card-1 {
+  background-image: url("./assets/zumba-sidecard-img.webp");
+  background-size: cover;
+}
+
+.card-2 {
+  background-image: url("./assets/yoga-sidecard-img.jpeg");
+  background-size: cover;
+}
+
+.card-3 {
+  background-image: url("./assets/spin-sidecard-img.jpeg");
+  background-size: cover;
 }
 
 .side-card-icon {
@@ -175,6 +208,8 @@ nav {
   padding: 1rem;
 
   font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
 
