@@ -4,10 +4,16 @@ const Facilities = () => {
   return (
     <>
       <section className='facilities-slider-container'>
-        <h2>A second home</h2>
-      </section>
+        <div className='facilities-title-container'>
+          <h2>A second home</h2>
+          <p>Our facilities provides an inclusive and friendly environment for your goals</p>
+        </div>
 
-      <section>
+        <div className='facilities-location-container'>
+          <h3>Location</h3>
+
+          <p>P. Sherman, 40 Wallaby Way, Sydney</p>
+        </div>
 
       </section>
     </>
