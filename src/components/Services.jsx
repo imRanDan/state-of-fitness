@@ -29,7 +29,7 @@ const Services = () => {
       </div>    
       <div className='side-card card-3'>
         <div className='side-card-icon'></div>
-        <h3>Spin</h3>
+        <h3>Spin Classes</h3>
       </div>
     </div>
 
