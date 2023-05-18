@@ -62,7 +62,7 @@ nav {
   justify-content: center;
   align-items: center;
 
-  background-image: url("./assets/sof-hero-bg.jpeg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("./assets/sof-hero-bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -112,37 +112,47 @@ nav {
 
 /* Services */
 
-.services-banner {
-  display: flex;
+.services-banner-container {
+
   background-color: rgb(4, 4, 4);
   color: white;
+
+}
+
+.services-banner {
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 3rem;
 }
 
-.services-banner h2, p {
-  padding-right: 3rem;
-  margin: 3rem;
-}
 
-.services-banner p {
-  margin-left: 8rem;
+.services-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 }
 
 .main-card-container {
-  width: 70%;
+
 }
 
 .main-card {
-  height: 300px;
-  width: 300px;
+  height: 250px;
 
   outline: 1px solid red;
 }
 
+.side-card-container {
+  display: flex;
+}
+
 .side-card  {
-  height: 300px;
+  height: 250px;
   width: 100px;
   outline: 1px solid red;
+  margin: 0 1rem;
 }
 
 

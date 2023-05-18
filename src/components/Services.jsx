@@ -3,9 +3,12 @@ import React from 'react'
 const Services = () => {
   return (
     <>
-    <section className='services-banner'>
-      <h2>Transform as you continue</h2>
-      <p>We offer customized programs designed for each client to help them reach their next level. Whether that is weight loss, strength, toning, or conditioning.</p>
+    <section className='services-banner-container'>
+      <div className='services-banner'>
+        <h2>Transform as you continue</h2>
+        <p>We offer customized programs designed for each client to help them reach their next level. Whether that is weight loss, strength, toning, or conditioning.</p>
+      </div>
+      
     </section>
 
     <section className='services-grid'>
@@ -16,11 +19,13 @@ const Services = () => {
         </div>
       </div>
 
-      <div className='side-cards'>
-            <div className='side-card'></div>
-            <div className='side-card'></div>
-            <div className='side-card'></div>
-          </div>
+    <div className='side-card-container'>
+    <div className='side-card'></div>
+      <div className='side-card'></div>
+      <div className='side-card'></div>
+    </div>
+
+
     </section>
     </>
   )
