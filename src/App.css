@@ -299,3 +299,15 @@ nav {
 
 
 /* Footer */
+
+.footer-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+
+}
+
+.footer-links li {
+  padding: 1em;
+  cursor: pointer;
+}
