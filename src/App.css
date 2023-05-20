@@ -266,4 +266,36 @@ nav {
   width: 100%;
 }
 
+.slideshow-container {
+  width: 300px;
+  height: 150px;
+  margin: auto auto;
+  margin-bottom: 1em;
 
+  outline: 1px solid green
+}
+
+
+/* Merch */
+
+.merch-banner-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem;
+}
+
+
+.merch-slider-container {
+
+}
+
+.merch-slider {
+  outline: 1px solid red;
+  width: 500px;
+  height: 200px;
+  margin: auto auto;
+}
+
+
+/* Footer */

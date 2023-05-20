@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 const Facilities = () => {
   return (
     <>
@@ -7,7 +9,13 @@ const Facilities = () => {
         <div className='facilities-title-container'>
           <h2>A second home</h2>
           <p>Our facilities provides an inclusive and friendly environment for your goals</p>
+
+          <div className='slideshow-container'>
+            <p>insert slideshow here :p</p>
+          </div>
+          
         </div>
+        
 
         <div className='facilities-location-container'>
           <h3>Location</h3>
